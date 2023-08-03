@@ -1,0 +1,41 @@
+Progetto di information extraction svolto su recensioni Amazon di Alexa Dot di terza generazione - programma 1
+Il numero totale di frasi di RecensioniPositive.txt è 320
+Il numero totale di frasi di RecensioniNegative.txt è 367
+Il numero totale di token di RecensioniPositive.txt è 5817
+Il numero totale di token di RecensioniNegative.txt è 5812
+La lunghezza media delle frasi in termini di token di RecensioniPositive.txt è 18.178125
+La lunghezza media delle frasi in termini di token di RecensioniNegative.txt è 15.8365122616
+La lunghezza media dei token in termini di caratteri di RecensioniPositive.txt è 3.67423070311
+La lunghezza media dei token in termini di caratteri di RecensioniNegative.txt è 3.78819683414
+La grandezza del vocabolario e la Type Token Ratio all'aumentare del corpus per porzioni incrementali di 1000 token per RecensioniPositive.txt :
+per 1000 token si ha |V|= 380 e TTR= 0.38
+per 2000 token si ha |V|= 622 e TTR= 0.311
+per 3000 token si ha |V|= 830 e TTR= 0.276666666667
+per 4000 token si ha |V|= 966 e TTR= 0.2415
+per 5000 token si ha |V|= 1098 e TTR= 0.2196
+per 5817  token si ha |V|= 1193 e TTR= 0.205088533608
+La grandezza del vocabolario e la Type Token Ratio all'aumentare del corpus per porzioni incrementali di 1000 token per RecensioniNegative.txt :
+per 1000 token si ha |V|= 432 e TTR= 0.432
+per 2000 token si ha |V|= 697 e TTR= 0.3485
+per 3000 token si ha |V|= 881 e TTR= 0.293666666667
+per 4000 token si ha |V|= 1039 e TTR= 0.25975
+per 5000 token si ha |V|= 1201 e TTR= 0.2402
+per 5812  token si ha |V|= 1344 e TTR= 0.231245698555
+Classi di frequenza nel file RecensioniPositive.txt :
+I token con frequenza 3 sono 88
+I token con frequenza 6 sono 21
+I token con frequenza 9 sono 10
+Classi di frequenza nel file RecensioniNegative.txt :
+I token con frequenza 3 sono 82
+I token con frequenza 6 sono 22
+I token con frequenza 9 sono 13
+Informazioni morfo-sintattiche sul file RecensioniPositive.txt :
+Il numero medio di sostantivi per frase è 3.553125
+Il numero medio di aggettivi per frase è 1.4375
+Il numero medio di verbi per frase è 2.953125
+La densità lessicale è 0.551197435414
+Informazioni morfo-sintattiche sul file RecensioniNegative.txt :
+Il numero medio di sostantivi per frase è 3.07084468665
+Il numero medio di aggettivi per frase è 1.04904632153
+Il numero medio di verbi per frase è 2.88010899183
+La densità lessicale è 0.565258751903

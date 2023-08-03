@@ -1,0 +1,492 @@
+Progetto di information extraction svolto su recensioni Amazon di Alexa Dot di terza generazione - programma 2
+I 20 token più frequenti escludendo la punteggiatura presenti in RecensioniPositive.txt sono:
+the --> frequenza 235
+I --> frequenza 210
+to --> frequenza 172
+and --> frequenza 155
+a --> frequenza 116
+it --> frequenza 109
+is --> frequenza 80
+my --> frequenza 70
+of --> frequenza 67
+for --> frequenza 61
+in --> frequenza 55
+Dot --> frequenza 46
+n't --> frequenza 43
+have --> frequenza 40
+with --> frequenza 37
+but --> frequenza 37
+on --> frequenza 37
+this --> frequenza 36
+sound --> frequenza 35
+you --> frequenza 33
+I 20 token più frequenti escludendo la punteggiatura presenti in RecensioniNegative.txt sono:
+I --> frequenza 235
+the --> frequenza 214
+to --> frequenza 156
+and --> frequenza 143
+it --> frequenza 113
+a --> frequenza 104
+this --> frequenza 68
+is --> frequenza 61
+of --> frequenza 58
+in --> frequenza 55
+n't --> frequenza 52
+for --> frequenza 49
+was --> frequenza 49
+with --> frequenza 46
+have --> frequenza 43
+not --> frequenza 42
+my --> frequenza 42
+on --> frequenza 34
+Gen --> frequenza 31
+but --> frequenza 31
+I 20 sostantivi più frequenti in RecensioniPositive.txt sono:
+Dot --> frequenza 46
+sound --> frequenza 35
+Alexa --> frequenza 29
+music --> frequenza 29
+speaker --> frequenza 28
+Gen --> frequenza 24
+Echo --> frequenza 24
+quality --> frequenza 17
+device --> frequenza 16
+dot --> frequenza 16
+Amazon --> frequenza 14
+time --> frequenza 13
+echo --> frequenza 11
+room --> frequenza 10
+generation --> frequenza 10
+house --> frequenza 9
+Bluetooth --> frequenza 9
+things --> frequenza 8
+lights --> frequenza 8
+iPhone --> frequenza 7
+I 20 sostantivi più frequenti in RecensioniNegative.txt sono:
+Gen --> frequenza 31
+Alexa --> frequenza 28
+Amazon --> frequenza 27
+Echo --> frequenza 25
+music --> frequenza 23
+Dot --> frequenza 20
+dot --> frequenza 19
+device --> frequenza 18
+time --> frequenza 16
+voice --> frequenza 15
+sound --> frequenza 14
+home --> frequenza 14
+speaker --> frequenza 12
+thing --> frequenza 12
+echo --> frequenza 11
+generation --> frequenza 11
+product --> frequenza 10
+devices --> frequenza 9
+times --> frequenza 9
+app --> frequenza 7
+I 20 agettivi più frequenti in RecensioniPositive.txt sono:
+new --> frequenza 17
+good --> frequenza 16
+better --> frequenza 14
+other --> frequenza 14
+echo --> frequenza 12
+great --> frequenza 12
+small --> frequenza 10
+first --> frequenza 10
+smart --> frequenza 9
+more --> frequenza 9
+much --> frequenza 9
+little --> frequenza 8
+second --> frequenza 8
+sound --> frequenza 8
+nice --> frequenza 8
+old --> frequenza 6
+many --> frequenza 6
+previous --> frequenza 5
+own --> frequenza 5
+bigger --> frequenza 5
+I 20 agettivi più frequenti in RecensioniNegative.txt sono:
+new --> frequenza 15
+same --> frequenza 13
+other --> frequenza 10
+much --> frequenza 10
+able --> frequenza 9
+better --> frequenza 8
+echo --> frequenza 7
+first --> frequenza 7
+second --> frequenza 6
+great --> frequenza 6
+tech --> frequenza 5
+disappointed --> frequenza 5
+wrong --> frequenza 5
+huge --> frequenza 5
+many --> frequenza 5
+more --> frequenza 4
+few --> frequenza 4
+good --> frequenza 4
+clear --> frequenza 4
+useless --> frequenza 4
+I 20 bigrammi di token più frequenti che non contengono punteggiatura, articoli e congiunzioni in RecensioniPositive.txt sono:
+I have -->frequenza 21
+do n't -->frequenza 14
+it 's -->frequenza 12
+2nd Gen -->frequenza 11
+I do -->frequenza 11
+Gen Dot -->frequenza 10
+I 'm -->frequenza 10
+n't have -->frequenza 9
+I am -->frequenza 9
+did n't -->frequenza 8
+to be -->frequenza 8
+It 's -->frequenza 8
+it to -->frequenza 8
+Echo Dot -->frequenza 8
+echo dot -->frequenza 8
+ca n't -->frequenza 7
+to music -->frequenza 7
+listen to -->frequenza 7
+to my -->frequenza 7
+3rd Gen -->frequenza 7
+I 20 bigrammi di token più frequenti che non contengono punteggiatura, articoli e congiunzioni in RecensioniNegative.txt sono:
+I have -->frequenza 26
+I am -->frequenza 16
+I was -->frequenza 15
+I 'm -->frequenza 15
+2nd Gen -->frequenza 14
+do n't -->frequenza 12
+Gen Echo -->frequenza 12
+did n't -->frequenza 10
+I 've -->frequenza 10
+Echo Dot -->frequenza 10
+able to -->frequenza 9
+It 's -->frequenza 9
+does n't -->frequenza 9
+to be -->frequenza 8
+it to -->frequenza 8
+I do -->frequenza 8
+it will -->frequenza 8
+have to -->frequenza 8
+it 's -->frequenza 7
+what I -->frequenza 7
+Le 10 Part-of-Speech più frequenti in RecensioniPositive.txt sono:
+. --> frequenza 287
+DT --> frequenza 235
+PRP --> frequenza 210
+, --> frequenza 192
+TO --> frequenza 172
+CC --> frequenza 155
+DT --> frequenza 116
+PRP --> frequenza 109
+VBZ --> frequenza 80
+PRP$ --> frequenza 70
+Le 10 Part-of-Speech più frequenti in RecensioniNegative.txt sono:
+. --> frequenza 340
+PRP --> frequenza 235
+DT --> frequenza 214
+, --> frequenza 170
+TO --> frequenza 156
+CC --> frequenza 143
+PRP --> frequenza 113
+DT --> frequenza 104
+DT --> frequenza 68
+VBZ --> frequenza 61
+I 10 bigrammi di Part-of-Speech più frequenti in RecensioniPositive.txt sono:
+. PRP --> frequenza 74
+. DT --> frequenza 27
+, CC --> frequenza 26
+IN DT --> frequenza 22
+PRP VBP --> frequenza 21
+, CC --> frequenza 21
+. PRP --> frequenza 18
+DT NN --> frequenza 17
+. PRP --> frequenza 17
+, PRP --> frequenza 17
+I 10 bigrammi di Part-of-Speech più frequenti in RecensioniNegative.txt sono:
+. PRP --> frequenza 96
+. DT --> frequenza 26
+PRP VBP --> frequenza 26
+, CC --> frequenza 23
+, PRP --> frequenza 19
+. . --> frequenza 17
+IN DT --> frequenza 17
+PRP VBP --> frequenza 16
+PRP VBD --> frequenza 15
+. PRP --> frequenza 15
+I 10 trigrammi di Part-of-Speech più frequenti in RecensioniPositive.txt sono:
+. PRP VBP --> frequenza 11
+PRP VBP RB --> frequenza 7
+VBP RB VB --> frequenza 7
+. PRP VBZ --> frequenza 7
+. DT VBZ --> frequenza 6
+TO VB TO --> frequenza 6
+DT NN NN --> frequenza 5
+CD NNP NNP --> frequenza 5
+PRP VBD RB --> frequenza 5
+PRP . PRP --> frequenza 5
+I 10 trigrammi di Part-of-Speech più frequenti in RecensioniNegative.txt sono:
+. PRP VBP --> frequenza 12
+. . . --> frequenza 11
+. PRP VBP --> frequenza 8
+. PRP VBD --> frequenza 8
+. PRP VBZ --> frequenza 8
+CD NNP NNP --> frequenza 7
+PRP VBP RB --> frequenza 7
+DT CD NNP --> frequenza 7
+. RB , --> frequenza 5
+NNP NNP NNP --> frequenza 5
+I 20 bigrammi con frequenza massima composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2) in RecensioniPositive.txt sono:
+Il bigramma " echo dot " ha frequenza 8
+La frequenza di echo è 24
+La frequenza di dot è 18
+
+Il bigramma " sound quality " ha frequenza 6
+La frequenza di sound è 45
+La frequenza di quality è 17
+
+Il bigramma " new Dot " ha frequenza 6
+La frequenza di new è 17
+La frequenza di Dot è 48
+
+Il bigramma " smart speaker " ha frequenza 4
+La frequenza di smart è 9
+La frequenza di speaker è 28
+
+Il bigramma " new Echo " ha frequenza 3
+La frequenza di new è 17
+La frequenza di Echo è 24
+
+Il bigramma " only thing " ha frequenza 2
+La frequenza di only è 8
+La frequenza di thing è 5
+
+Il bigramma " smart plugs " ha frequenza 2
+La frequenza di smart è 9
+La frequenza di plugs è 4
+
+Il bigramma " few days " ha frequenza 2
+La frequenza di few è 4
+La frequenza di days è 3
+
+Il bigramma " second Gen " ha frequenza 2
+La frequenza di second è 8
+La frequenza di Gen è 24
+
+Il bigramma " many uses " ha frequenza 2
+La frequenza di many è 6
+La frequenza di uses è 4
+
+Il bigramma " different rooms " ha frequenza 2
+La frequenza di different è 4
+La frequenza di rooms è 7
+
+Il bigramma " little device " ha frequenza 2
+La frequenza di little è 8
+La frequenza di device è 16
+
+Il bigramma " previous version " ha frequenza 2
+La frequenza di previous è 5
+La frequenza di version è 7
+
+Il bigramma " second generation " ha frequenza 2
+La frequenza di second è 8
+La frequenza di generation è 10
+
+Il bigramma " last generation " ha frequenza 1
+La frequenza di last è 3
+La frequenza di generation è 10
+
+Il bigramma " most people " ha frequenza 1
+La frequenza di most è 5
+La frequenza di people è 5
+
+Il bigramma " good weather " ha frequenza 1
+La frequenza di good è 16
+La frequenza di weather è 4
+
+Il bigramma " several Dots " ha frequenza 1
+La frequenza di several è 3
+La frequenza di Dots è 6
+
+Il bigramma " smart light " ha frequenza 1
+La frequenza di smart è 9
+La frequenza di light è 6
+
+Il bigramma " new devices " ha frequenza 1
+La frequenza di new è 17
+La frequenza di devices è 6
+
+I 20 bigrammi con frequenza massima composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2) in RecensioniNegative.txt sono:
+Il bigramma " echo dot " ha frequenza 4
+La frequenza di echo è 18
+La frequenza di dot è 21
+
+Il bigramma " smart home " ha frequenza 3
+La frequenza di smart è 4
+La frequenza di home è 14
+
+Il bigramma " many times " ha frequenza 3
+La frequenza di many è 5
+La frequenza di times è 9
+
+Il bigramma " echo dots " ha frequenza 3
+La frequenza di echo è 18
+La frequenza di dots è 4
+
+Il bigramma " few minutes " ha frequenza 3
+La frequenza di few è 4
+La frequenza di minutes è 5
+
+Il bigramma " better speaker " ha frequenza 2
+La frequenza di better è 8
+La frequenza di speaker è 12
+
+Il bigramma " second Gen " ha frequenza 2
+La frequenza di second è 6
+La frequenza di Gen è 31
+
+Il bigramma " same issue " ha frequenza 2
+La frequenza di same è 13
+La frequenza di issue è 8
+
+Il bigramma " other devices " ha frequenza 2
+La frequenza di other è 10
+La frequenza di devices è 9
+
+Il bigramma " tech support " ha frequenza 2
+La frequenza di tech è 7
+La frequenza di support è 7
+
+Il bigramma " much bass " ha frequenza 2
+La frequenza di much è 12
+La frequenza di bass è 5
+
+Il bigramma " huge disappointment " ha frequenza 2
+La frequenza di huge è 5
+La frequenza di disappointment è 3
+
+Il bigramma " new Echo " ha frequenza 2
+La frequenza di new è 15
+La frequenza di Echo è 25
+
+Il bigramma " third generation " ha frequenza 2
+La frequenza di third è 3
+La frequenza di generation è 11
+
+Il bigramma " other product " ha frequenza 1
+La frequenza di other è 10
+La frequenza di product è 10
+
+Il bigramma " same thing " ha frequenza 1
+La frequenza di same è 13
+La frequenza di thing è 12
+
+Il bigramma " only information " ha frequenza 1
+La frequenza di only è 9
+La frequenza di information è 3
+
+Il bigramma " same problem " ha frequenza 1
+La frequenza di same è 13
+La frequenza di problem è 7
+
+Il bigramma " hard time " ha frequenza 1
+La frequenza di hard è 3
+La frequenza di time è 16
+
+Il bigramma " tech time " ha frequenza 1
+La frequenza di tech è 7
+La frequenza di time è 16
+
+I 20 bigrammi con probabilità congiunta massima, composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2) in RecensioniPositive.txt sono:
+Il bigramma " echo dot " ha probabilità congiunta di 0.00137527935362
+Il bigramma " sound quality " ha probabilità congiunta di 0.00103145951521
+Il bigramma " new Dot " ha probabilità congiunta di 0.00103145951521
+Il bigramma " smart speaker " ha probabilità congiunta di 0.000687639676809
+Il bigramma " new Echo " ha probabilità congiunta di 0.000515729757607
+Il bigramma " only thing " ha probabilità congiunta di 0.000343819838405
+Il bigramma " smart plugs " ha probabilità congiunta di 0.000343819838405
+Il bigramma " few days " ha probabilità congiunta di 0.000343819838405
+Il bigramma " second Gen " ha probabilità congiunta di 0.000343819838405
+Il bigramma " many uses " ha probabilità congiunta di 0.000343819838405
+Il bigramma " different rooms " ha probabilità congiunta di 0.000343819838405
+Il bigramma " little device " ha probabilità congiunta di 0.000343819838405
+Il bigramma " previous version " ha probabilità congiunta di 0.000343819838405
+Il bigramma " second generation " ha probabilità congiunta di 0.000343819838405
+Il bigramma " last generation " ha probabilità congiunta di 0.000171909919202
+Il bigramma " most people " ha probabilità congiunta di 0.000171909919202
+Il bigramma " good weather " ha probabilità congiunta di 0.000171909919202
+Il bigramma " several Dots " ha probabilità congiunta di 0.000171909919202
+Il bigramma " smart light " ha probabilità congiunta di 0.000171909919202
+Il bigramma " new devices " ha probabilità congiunta di 0.000171909919202
+
+I 20 bigrammi con probabilità congiunta massima, composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2) in RecensioniNegative.txt sono:
+Il bigramma " echo dot " ha probabilità congiunta di 0.000688231245699
+Il bigramma " smart home " ha probabilità congiunta di 0.000516173434274
+Il bigramma " many times " ha probabilità congiunta di 0.000516173434274
+Il bigramma " echo dots " ha probabilità congiunta di 0.000516173434274
+Il bigramma " few minutes " ha probabilità congiunta di 0.000516173434274
+Il bigramma " better speaker " ha probabilità congiunta di 0.000344115622849
+Il bigramma " second Gen " ha probabilità congiunta di 0.000344115622849
+Il bigramma " same issue " ha probabilità congiunta di 0.000344115622849
+Il bigramma " other devices " ha probabilità congiunta di 0.000344115622849
+Il bigramma " tech support " ha probabilità congiunta di 0.000344115622849
+Il bigramma " much bass " ha probabilità congiunta di 0.000344115622849
+Il bigramma " huge disappointment " ha probabilità congiunta di 0.000344115622849
+Il bigramma " new Echo " ha probabilità congiunta di 0.000344115622849
+Il bigramma " third generation " ha probabilità congiunta di 0.000344115622849
+Il bigramma " other product " ha probabilità congiunta di 0.000172057811425
+Il bigramma " same thing " ha probabilità congiunta di 0.000172057811425
+Il bigramma " only information " ha probabilità congiunta di 0.000172057811425
+Il bigramma " same problem " ha probabilità congiunta di 0.000172057811425
+Il bigramma " hard time " ha probabilità congiunta di 0.000172057811425
+Il bigramma " tech time " ha probabilità congiunta di 0.000172057811425
+
+I 20 bigrammi con forza associativa massima, composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2) in RecensioniPositive.txt sono:
+Il bigramma" echo dot "ha una forza associativa di valore 53.9317358912
+Il bigramma" sound quality "ha una forza associativa di valore 32.951118578
+Il bigramma" new Dot "ha una forza associativa di valore 32.3539045367
+Il bigramma" smart speaker "ha una forza associativa di valore 26.0942478242
+Il bigramma" new Echo "ha una forza associativa di valore 16.1769522683
+Il bigramma" only thing "ha una forza associativa di valore 16.35981818
+Il bigramma" smart plugs "ha una forza associativa di valore 16.6707807094
+Il bigramma" few days "ha una forza associativa di valore 19.8407057108
+Il bigramma" second Gen "ha una forza associativa di valore 11.8137811912
+Il bigramma" many uses "ha una forza associativa di valore 17.8377264745
+Il bigramma" different rooms "ha una forza associativa di valore 17.3939350525
+Il bigramma" little device "ha una forza associativa di valore 12.9837061927
+Il bigramma" previous version "ha una forza associativa di valore 16.7500788627
+Il bigramma" second generation "ha una forza associativa di valore 14.35981818
+Il bigramma" last generation "ha una forza associativa di valore 7.59245703727
+Il bigramma" most people "ha una forza associativa di valore 7.85798099513
+Il bigramma" good weather "ha una forza associativa di valore 6.49185309633
+Il bigramma" several Dots "ha una forza associativa di valore 8.33539035469
+Il bigramma" smart light "ha una forza associativa di valore 6.7414669864
+Il bigramma" new devices "ha una forza associativa di valore 5.83289001416
+
+I 20 bigrammi con forza associativa massima, composti da Aggettivo e Sostantivo (dove ogni token deve avere una frequenza maggiore di 2) in RecensioniNegative.txt sono:
+Il bigramma" echo dot "ha una forza associativa di valore 23.7229493503
+Il bigramma" smart home "ha una forza associativa di valore 24.8423123104
+Il bigramma" many times "ha una forza associativa di valore 25.7885692684
+Il bigramma" echo dots "ha una forza associativa di valore 23.7565897118
+Il bigramma" few minutes "ha una forza associativa di valore 29.2995867258
+Il bigramma" better speaker "ha una forza associativa di valore 13.8377264745
+Il bigramma" second Gen "ha una forza associativa di valore 11.9083926208
+Il bigramma" same issue "ha una forza associativa di valore 13.5888317327
+Il bigramma" other devices "ha una forza associativa di valore 14.0224545108
+Il bigramma" tech support "ha una forza associativa di valore 15.7774864978
+Il bigramma" much bass "ha una forza associativa di valore 15.1849140745
+Il bigramma" huge disappointment "ha una forza associativa di valore 19.1923795123
+Il bigramma" new Echo "ha una forza associativa di valore 9.81378119122
+Il bigramma" third generation "ha una forza associativa di valore 16.9188632373
+Il bigramma" other product "ha una forza associativa di valore 5.85798099513
+Il bigramma" same thing "ha una forza associativa di valore 5.20945336563
+Il bigramma" only information "ha una forza associativa di valore 7.74819284959
+Il bigramma" same problem "ha una forza associativa di valore 5.9772799235
+Il bigramma" hard time "ha una forza associativa di valore 6.91886323727
+Il bigramma" tech time "ha una forza associativa di valore 5.67242534197
+
+Calcoli di probabilità delle frasi utilizzando modelli Markoviani per RecensioniPositive.txt :
+La frase con probabilità più alta calcolata attraverso un modello di Markov di ordine 0 è:" I have an echo dot 2nd generation. "con probabilità 4.27082404605e-18
+La frase con probabilità più alta calcolata attraverso un modello di Markov di ordine 1 è:" I have an echo dot 2nd generation. "con probabilità 0.0361010830325
+
+Calcoli di probabilità delle frasi utilizzando modelli Markoviani per RecensioniNegative.txt :
+La frase con probabilità più alta calcolata attraverso un modello di Markov di ordine 0 è:" I tried again, and again. "con probabilità 6.10414944801e-15
+La frase con probabilità più alta calcolata attraverso un modello di Markov di ordine 1 è:" I tried again, and again. "con probabilità 0.0404335856848
